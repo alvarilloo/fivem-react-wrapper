@@ -18,7 +18,7 @@ Just include the wrapper in your HTML using a `<script>` tag:
 
 ```html
 <script 
-    src="https://github.com/youruser/yourrepo/raw/main/react-wrapper.js" 
+    src="https://cdn.jsdelivr.net/gh/alvarilloo/fivem-react-wrapper@main/wrapper.js" 
     data-react-url="https://your-domain-here.com">
 </script>
 ```
@@ -37,7 +37,7 @@ The wrapper automatically creates an iframe pointing to the URL specified in `da
 <body>
     <!-- Load the wrapper script -->
     <script 
-        src="https://raw.githubusercontent.com/alvarilloo/fivem-react-wrapper/refs/heads/main/wrapper.js" 
+        src="https://cdn.jsdelivr.net/gh/alvarilloo/fivem-react-wrapper@main/wrapper.js" 
         data-react-url="https://your-domain-here.com">
     </script>
 </body>
@@ -57,7 +57,7 @@ You can use it in development or production by simply changing the `data-react-u
 
 ```html
 <script 
-    src="https://raw.githubusercontent.com/alvarilloo/fivem-react-wrapper/refs/heads/main/wrapper.js" 
+    src="https://cdn.jsdelivr.net/gh/alvarilloo/fivem-react-wrapper@main/wrapper.js" 
     data-react-url="https://your-domain-here.com"
 ```
 
@@ -65,7 +65,7 @@ Also works for localhost development:
 
 ```html
 <script 
-    src="https://raw.githubusercontent.com/alvarilloo/fivem-react-wrapper/refs/heads/main/wrapper.js" 
+    src="https://cdn.jsdelivr.net/gh/alvarilloo/fivem-react-wrapper@main/wrapper.js" 
     data-react-url="http://localhost:3000">
 </script>
 ```
