@@ -20,7 +20,7 @@
         queue = [];
     }
 
-    window.onload = function() {
+    function createIframe() {
         console.log(`[wrapper] Loading UI from: ${REACT_URL}`);
         const iframe = document.createElement("iframe");
         iframe.id = "react";
@@ -35,5 +35,11 @@
         iframe.onload = onIframeLoad;
 
         document.body.appendChild(iframe);
+    }
+
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        createIframe();
+    } else {
+        document.addEventListener("DOMContentLoaded", createIframe);
     }
 })();
