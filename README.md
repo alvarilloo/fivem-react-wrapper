@@ -37,8 +37,8 @@ The wrapper automatically creates an iframe pointing to the URL specified in `da
 <body>
     <!-- Load the wrapper script -->
     <script 
-        src="https://github.com/youruser/yourrepo/raw/main/react-wrapper.js" 
-        data-react-url="https://cdn.lanaranjarp.es:3000">
+        src="https://raw.githubusercontent.com/alvarilloo/fivem-react-wrapper/refs/heads/main/wrapper.js" 
+        data-react-url="https://your-domain-here.com">
     </script>
 </body>
 </html>
